@@ -1,0 +1,52 @@
+.title-border {
+    border-style: solid;
+    margin-right: -40px;
+    margin-left: -40px;
+    background-color: lightgrey;
+  }
+#title {
+    text-align: center;
+  }
+  
+.center {
+    text-align: center;
+  }
+  
+#image {
+    max-width: 500px;
+    max-height: 400px;
+    width: 50%;
+    margin-top: 10px;
+    float: right;
+    clear: right;
+  }
+  
+#img-caption {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+#border-style-green {
+    border-left: 4px green solid;
+    background-color: lightgrey;
+  }
+  
+#border-style-red {
+    border-left: 4px red solid;
+    background-color: lightgrey;
+  }
+  
+#border-style-blue {
+    border-left: 4px blue solid;
+    background-color: lightgrey;
+  }
+  
+#tribute-info {
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+#tribute-link {
+    text-align: center;
+  }
+  
