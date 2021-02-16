@@ -1,44 +1,60 @@
-.title-border {
-    border-style: solid;
-    margin-right: -40px;
-    margin-left: -40px;
-    background-color: lightgrey;
-  }
-#title {
-    text-align: center;
-  }
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
   
 .center {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
 #image {
-    max-width: 500px;
-    max-height: 400px;
-    width: 50%;
-    margin-top: 10px;
-    float: right;
-    clear: right;
+    width: 60%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 #img-caption {
     font-size: 15px;
     text-align: center;
-  }
-  
-#border-style-green {
-    border-left: 4px green solid;
-    background-color: lightgrey;
-  }
-  
-#border-style-red {
-    border-left: 4px red solid;
-    background-color: lightgrey;
-  }
-  
-#border-style-blue {
-    border-left: 4px blue solid;
-    background-color: lightgrey;
   }
   
 #tribute-info {
@@ -50,3 +66,49 @@
     text-align: center;
   }
   
+.collapsible {
+  cursor: pointer;
+  border-radius: 30px;
+  height: 400px;
+  width: 90%;
+  opacity: .5;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 0px;
+}
+  
+.active, .collapsible:hover {
+  opacity: 1;
+  transition: .5s ease;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+  
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 10px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner1 {
+  background-image: url("images/MX-banner-big-1500x630.jpg");
+}
+
+#banner2 {
+  background-image: url("images/150213162305-15-malcolm-x-restricted-super-169.jpg");
+  
+}
+
+#banner3 {
+  background-image: url("images/Malcolm-X-Harlem-Caro.jpg");
+}
+
